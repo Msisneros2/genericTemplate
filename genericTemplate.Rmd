@@ -2,7 +2,9 @@
 title: "Generic Analysis Template"
 author: "Your Name"
 date: "Date, 2019"
-output: html_document
+output: 
+  html_document:
+    number_sections: true
 ---
 
 ```{r setup, include=FALSE}
